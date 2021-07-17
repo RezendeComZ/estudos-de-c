@@ -5,7 +5,7 @@
 
 int main()
 {
-  int level = 656;
+  int level = 3;
 
   switch (level)
   {
@@ -15,8 +15,13 @@ int main()
   case 2:
     printf("O valor é 2\n");
     break;
+  case 3:
+  case 4:
+    printf("O valor é 3 ou 4\n");
+    break;
   default:
     printf("O valor é: %d\n", level);
+    break;
   }
 
   return 0;
