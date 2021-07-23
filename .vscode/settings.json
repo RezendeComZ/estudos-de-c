@@ -6,6 +6,7 @@
     "chrono": "c",
     "unordered_map": "c",
     "hashtable": "c",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "math.h": "c"
   }
 }
