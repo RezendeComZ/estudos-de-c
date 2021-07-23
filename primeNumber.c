@@ -1,16 +1,25 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int primo(int num, int max)
 {
-  if (num % 2 != 0)
+  bool ehPrimo = true;
+  for (int i = 2; i < num; i++)
   {
-    if (num < max)
+    if (num % i == 0)
     {
-      printf("%d, ", num);
+      ehPrimo = false;
+    }
+  }
+  if (ehPrimo)
+  {
+    if (num != 2)
+    {
+      printf(", %d", num);
     }
     else
     {
-      printf("%d.\n", num);
+      printf("%d", num);
     }
   }
   return 0;
@@ -22,9 +31,10 @@ int main()
   printf("Até qual número primo você quer imprimir? ");
   scanf("%d", &max);
 
-  for (int i = 1; i <= max; i++)
+  for (int i = 2; i <= max; i++)
   {
     primo(i, max);
   }
+  printf(".\n");
   return 0;
 }
