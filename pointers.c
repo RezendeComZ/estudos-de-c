@@ -14,5 +14,11 @@ int main()
   printf("pedaços de pizza: %d\n", pedacosDePizza); // 25
   printf("imprimindo o pointer: %d\n", *apontador); // 25, mesma coisa // precisa do *, indirection operator
 
+  // Não funciona:
+  // *apontador++; // Acontece que * tem precedência, então acontece isso: *(apontador++); // ou seja, não funciona
+  // Isso funciona:
+  (*apontador)++;
+
+  printf("Incrementando: %d\n", *apontador); // 26
   return 0;
 }
