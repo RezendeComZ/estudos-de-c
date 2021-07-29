@@ -1,4 +1,5 @@
 // DEFINE é tipo uma const. Você não consegue mudar o valor dela.
+// Symbolic Constants é o nome do livro do C
 #include <stdio.h>
 
 #define ZERO 0 // Maiúsculo por padrão, mas não é necessaário
