@@ -1,4 +1,4 @@
-// Quando os arrays vão para funções, eles vão como pointers
+// Quando os arrays vão para funções, eles vão como pointers // DECAY!
 
 #include <stdio.h>
 
