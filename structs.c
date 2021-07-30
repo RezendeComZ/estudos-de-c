@@ -13,6 +13,12 @@ typedef struct retanguloDois
   int comprimento;
 } retanguloDois;
 
+typedef struct construcao
+{
+  char dono[30];
+  retanguloDois tamanho;
+} construcao;
+
 int main()
 {
   struct retangulo meuRetangulo = {5, 10};
@@ -22,5 +28,11 @@ int main()
   printf("\n\n");
   retanguloDois meuOutroRetangulo = {2, 3}; // typedef faz com que eu não precise usar "struck" aqui na frente
   printf("Comprimento: %d.\nLargura: %d.\n", meuOutroRetangulo.comprimento, meuOutroRetangulo.largura);
+
+  //
+  construcao minhaCasa = {"Gabriel",
+                          {20, 40}};
+  printf("Dono da casa: %s. Largura da casa: %d.\n", minhaCasa.dono, minhaCasa.tamanho.largura);
+
   return 0;
 }
