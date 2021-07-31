@@ -32,7 +32,10 @@ int main()
   //
   construcao minhaCasa = {"Gabriel",
                           {20, 40}};
-  printf("Dono da casa: %s. Largura da casa: %d.\n", minhaCasa.dono, minhaCasa.tamanho.largura);
+  printf("Dono da casa: %s. Largura da casa: %d. Comprimento da casa: %d.\n",
+         minhaCasa.dono,
+         minhaCasa.tamanho.largura,
+         minhaCasa.tamanho.comprimento);
 
   return 0;
 }
