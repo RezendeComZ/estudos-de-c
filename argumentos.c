@@ -1,7 +1,17 @@
 // Argumentos em main
 
-// parte das fontes: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
-//                   https://opensource.com/article/19/5/how-write-good-c-main-function
+/* 
+Note the difference between parameters and arguments:
+
+    Function parameters are the names listed in the function's definition.
+    Function arguments are the real values passed to the function.
+    Parameters are initialized to the values of the arguments supplied.
+
+
+Parte das fontes: https://www.geeksforgeeks.org/command-line-arguments-in-c-cpp/
+                  https://opensource.com/article/19/5/how-write-good-c-main-function
+                  https://developer.mozilla.org/en-US/docs/Glossary/Parameter
+*/
 
 #include <stdio.h>
 
