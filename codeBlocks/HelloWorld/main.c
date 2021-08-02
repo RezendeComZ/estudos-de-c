@@ -13,5 +13,7 @@ int main()
     printf("/___|___\\ \n");
     printf("Hello world! %s\n", nome); // s para String em aspas duplas
     printf("Letra A: %c", letra); // c para char em aspas simples
+    printf("\nComplicando %s \"pouco\" mais!\n", "um"); // scape
+    printf("%f\n", 100.09302); // float
     return 0;
 }
