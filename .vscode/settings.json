@@ -8,6 +8,7 @@
     "hashtable": "c",
     "stdio.h": "c",
     "math.h": "c",
-    "ratio": "c"
+    "ratio": "c",
+    "functional": "c"
   }
 }
